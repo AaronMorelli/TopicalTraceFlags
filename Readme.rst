@@ -6,7 +6,7 @@ Topical Trace Flags
  
 *Editor/Primary compiler*: Aaron Morelli
   
-*Short Disclaimer*: |D2014| |Infor| The majority of these flags are undocumented by Microsoft, and therefore unsupported. The author has experimented 
+*Short Disclaimer*: The majority of these flags are undocumented by Microsoft, and therefore unsupported. The author has experimented 
 with only a handful of these flags and cannot vouch for complete accuracy in the descriptions provided, nor has authority to do so. 
 The author assumes no responsibility for any negative (or positive!) consequences arising from the use or misuse of these 
 trace flags in any production or non-production environment. Use at your own risk.
@@ -59,6 +59,3 @@ Categories
 .. _Change Log: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/core/ChangeLog.rst
 
 .. _Statistics and Estimation: http://www.python.org/
-
-.. |D2014| image:: https://github.com/AaronMorelli/TopicalTraceFlags/tree/master/res/Doc2014_11pt.png
-.. |Infor| image:: https://github.com/AaronMorelli/TopicalTraceFlags/tree/master/res/Info_11pt.png
