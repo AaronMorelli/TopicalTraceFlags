@@ -11,7 +11,7 @@ with only a handful of these flags and cannot vouch for complete accuracy in the
 The author assumes no responsibility for any negative (or positive!) consequences arising from the use or misuse of these 
 trace flags in any production or non-production environment. Use at your own risk.
 
-*How to use*: Disclaimers_ | Conventions_ | License_ | `Misc TF Usage Notes`_ | `Other Notable Repositories`_ | `Change Log`_
+*How to use*: Disclaimers_ | Conventions_ | License_ | Search_ | `Misc TF Usage Notes`_ | `Other Notable Repositories`_ | `Change Log`_
 
 Categories
 ----------
@@ -50,11 +50,12 @@ Categories
   
  
 .. Links
-.. _Disclaimers: http://www.python.org/
-.. _Conventions: http://www.python.org/
-.. _License: http://www.python.org/
-.. _Misc TF Usage Notes: http://www.python.org/
-.. _Other Notable Repositories: http://www.python.org/
-.. _Change Log: http://www.python.org/
+.. _Disclaimers: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/core/Disclaimers.rst
+.. _Conventions: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/core/Conventions.rst
+.. _License: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/LICENSE
+.. _Search: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/core/Search.rst
+.. _Misc TF Usage Notes: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/core/MiscTFUsageNotes.rst
+.. _Other Notable Repositories: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/core/OtherRepos.rst
+.. _Change Log: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/core/ChangeLog.rst
 
 .. _Statistics and Estimation: http://www.python.org/
