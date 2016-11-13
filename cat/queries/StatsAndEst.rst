@@ -2,8 +2,8 @@
 Statistics and Estimation
 =========================
 
-.. |D2014| image:: ../res/Doc2014_11pt.png
-.. |Infor| image:: ../res/Info_11pt.png
+.. |D2014| image:: Doc2014_11pt.png
+.. |Infor| image:: Info_11pt.png
 
 
 
