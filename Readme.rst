@@ -11,7 +11,10 @@ accuracy in the descriptions provided, nor has authority to do so. The contribut
 negative (or positive!) consequences arising from the use or misuse of these trace flags in any production or non-production environment. 
 For more information, see the full Disclaimers_ page. Use at your own risk.
 
-*How to use*: Disclaimers_ | Conventions_ | License_ | Search_ | Contribute_ | `Misc TF Usage Notes`_ | `Other Notable Repositories`_ | `Change Log`_
+
+*How to use this repo*: Disclaimers_ | Conventions_ | License_ | Search_ | Contribute_ | `Change Log`_
+
+*Trace Flag Fun*: `TF Usage`_ | `Other Notable Repositories`_
 
 Categories
 ----------
@@ -49,17 +52,7 @@ Categories
   #. `To-Do List`_
   
   
-.. _Instance and Database Startup, General Instance Behavior: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/server/Inst.rst
-.. _SQL Miscellaneous Informational: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/server/MiscInfo.rst
-.. _SQLOS Scheduling and CPU-related: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/server/SchedAndCPU.rst
-.. _SQLOS Memory and Buffer Pool: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/server/MemAndBuf.rst
-.. _Disk and Network IO: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/server/DiskAndNetIO.rst
-.. _Connectivity: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/server/Connectivity.rst
-.. _Background Sessions and Tasks: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/server/Background.rst
-.. _High Availability/Distributed Technologies: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/server/HADR.rst
-.. _Security: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/server/Security.rst
-.. _Special Features: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/server/SpecialFeatures.rst
-.. _Exceptions and Memory Dump Behavior: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/server/ExceptionsAndMemDump.rst
+
  
 .. Links
 .. _Disclaimers: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/core/Disclaimers.rst
@@ -67,7 +60,7 @@ Categories
 .. _License: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/LICENSE
 .. _Search: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/core/Search.rst
 .. _Contribute: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/core/Contribute.rst
-.. _Misc TF Usage Notes: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/core/MiscTFUsageNotes.rst
+.. _TF Usage: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/core/MiscTFUsageNotes.rst
 .. _Other Notable Repositories: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/core/OtherRepos.rst
 .. _Change Log: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/core/ChangeLog.rst
 
@@ -82,6 +75,18 @@ Categories
 .. _Transactions, Logging, and Recovery: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/databases/TranLoggingRecov.rst
 .. _Backup and Restore: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/databases/BackupAndRestore.rst
 .. _CHECKDB and Corruptions: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/databases/CHECKDBandCorruptions.rst
+
+.. _Instance and Database Startup, General Instance Behavior: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/server/Inst.rst
+.. _SQL Miscellaneous Informational: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/server/MiscInfo.rst
+.. _SQLOS Scheduling and CPU-related: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/server/SchedAndCPU.rst
+.. _SQLOS Memory and Buffer Pool: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/server/MemAndBuf.rst
+.. _Disk and Network IO: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/server/DiskAndNetIO.rst
+.. _Connectivity: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/server/Connectivity.rst
+.. _Background Sessions and Tasks: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/server/Background.rst
+.. _High Availability/Distributed Technologies: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/server/HADR.rst
+.. _Security: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/server/Security.rst
+.. _Special Features: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/server/SpecialFeatures.rst
+.. _Exceptions and Memory Dump Behavior: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/server/ExceptionsAndMemDump.rst
 
 .. _Other: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/other/Other.rst
 .. _Unable to confirm: https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/cat/other/UnableToConfirm.rst
