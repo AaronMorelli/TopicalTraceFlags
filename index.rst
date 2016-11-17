@@ -6,38 +6,76 @@
 A Topical Collection of SQL Server TraceFlags
 =============================================
 
-*Purpose*: A collection of SQL Server trace flags organized by area of the SQL Server engine.
- 
+Welcome to a topically-organized collection of SQL Server trace flags. This documentation aims to be the most usable, intuitive, 
+and closest-to-comprehensive collection of trace flags anywhere on the internet. The content is always a work-in-progress
+and your contributions are always welcome! Please review the content below and the navigational bar to the left to familiarize
+yourself with the collection's conventions, limitations, and organization. Thanks for dropping by!
+
 *Editor/Primary compiler*: Aaron Morelli
+
+*License*: MIT License
   
 *Short Disclaimer*: The majority of these flags are undocumented by Microsoft, and therefore unsupported. This repository cannot vouch for complete 
 accuracy in the descriptions provided, nor has authority to do so. The contributors to this repository assumes no responsibility for any 
 negative (or positive!) consequences arising from the use or misuse of these trace flags in any production or non-production environment. 
 For more information, see the full Disclaimers_ page. Use at your own risk.
 
-*How to use this repo*: Disclaimers_ | Conventions_ | `Flag Search`_ | Contribute_ | `Change Log`_ | License_
-
-*Trace Flag Fun*: `TF Usage`_ | `Other Notable Repositories`_
-
-
-.. First toc tree, How to Use
 
 .. toctree::
-   :maxdepth: 3
-   
-   core/HowToUse
+   :caption: How to Use
+
+   core/Disclaimers
+   core/Conventions
+   core/TFUsageNotes
+   core/OtherRepos
+   core/FlagSearch
+   core/Contribute
+   core/ChangeLog
 
 
-.. Second toc tree, Categories   
    
 .. toctree::
-   :maxdepth: 3
+   :caption: Queries
 
-   cat/Categories
+   cat/queries/StatsAndEst
+   cat/queries/CompilationInfo
+   cat/queries/CompilationBehavioral
+   cat/queries/QueryExec
+   cat/queries/PlanCaching
    
 
-  
-  
+.. toctree::
+   :caption: Databases
+
+   cat/databases/DBsAndFiles
+   cat/databases/LockingAndWaiting
+   cat/databases/TranLoggingRecov
+   cat/databases/BackupAndRestore
+   cat/databases/CHECKDBandCorruptions
+
+   
+.. toctree::
+   :caption: Server
+
+   cat/server/Inst
+   cat/server/SchedAndCPU
+   cat/server/MemAndBuf
+   cat/server/DiskAndNetIO
+   cat/server/Background
+   cat/server/Security
+   cat/server/Connectivity
+   cat/server/HADR
+   cat/server/SpecialFeatures
+   cat/server/ExceptionsAndMemDump
+   cat/server/MiscInfo
+   
+   
+.. toctree::
+   :caption: Other
+
+   cat/other/UnableToConfirm
+   cat/other/OtherStuff
+   cat/other/TODO
 
  
 .. Links
