@@ -2,9 +2,30 @@
 reST test
 =========
 
-.. |D2014| image:: Doc2014_11pt.png
-.. |Infor| image:: Info_11pt.png
+.. |D2014| image:: res/Doc2014_11pt.png
+.. |Infor| image:: res/Info_11pt.png
 
+
+2388 ``Doc2005`` *INFO*
+	920093_: does the blah blah to the blah blah and sometimes also the blah blah. This is a really long string to see how RTD handles wrapping text. Yes indeedy, wrappy wrappy. Eggs and backups-y. 
+	Here's the first text of the second descriptive line. CSS1_: Another helpful descriptive statement.
+	
+	ThirdLink_ | FourthLink_ | FifthLink_
+	
+	
+	An indented flag ``Doc2008`` *INFO*  
+		920093_: more descriptions, dude. CSS2_: Moar tekts.
+		
+		ThirdLink_ | FourthLink_ | FifthLink_
+
+
+.. _920093: https://support.microsoft.com/en-us/kb/920093
+.. _CSS1: https://blogs.msdn.microsoft.com/psssql/2016/11/15/unable-to-drop-a-user-in-a-database/
+.. _CSS2: https://blogs.msdn.microsoft.com/psssql/2016/11/15/unable-to-drop-a-user-in-a-database/
+.. _ThirdLink: http://www.python.org
+.. _FourthLink: http://www.python.org
+.. _FifthLink: http://www.python.org
+		
 
 Here is a normal paragraph containing *italic*, **bold**, `interpreted text`, ``inline literals``, 
 standalone hyperlinks (http://www.python.org), external hyperlinks (Python_), internal cross-references
