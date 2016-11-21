@@ -31,7 +31,9 @@ For more information, see the full Disclaimers_ page. Use at your own risk.
    core/FlagSearch
    core/Contribute
    core/ChangeLog
-   core/resttest
+   core/rest_basics
+   core/rest_advanced
+   core/rest_sphinx
 
    
 .. toctree::

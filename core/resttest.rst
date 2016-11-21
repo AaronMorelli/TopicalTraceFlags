@@ -5,18 +5,68 @@ reST test
 .. |D2014| image:: res/Doc2014_11pt.png
 .. |Infor| image:: res/Info_11pt.png
 
+.. centered:: TEST TRACE FLAGS
 
-2388 ``Doc2005`` *INFO*
+.. rubric:: Test Trace Flags
+
+
+
+
+2388 ``Doc2005`` *Info*
 	920093_: does the blah blah to the blah blah and sometimes also the blah blah. This is a really long string to see how RTD handles wrapping text. Yes indeedy, wrappy wrappy. Eggs and backups-y. 
 	Here's the first text of the second descriptive line. CSS1_: Another helpful descriptive statement.
 	
 	ThirdLink_ | FourthLink_ | FifthLink_
 	
 	
-	An indented flag ``Doc2008`` *INFO*  
+	An indented flag ``Doc2008`` *Info*  
 		920093_: more descriptions, dude. CSS2_: Moar tekts.
 		
-		ThirdLink_ | FourthLink_ | FifthLink_
+		ThirdLink_ | FourthLink_ | FifthLink_ 
+
+
+Another flag ``Doc2008`` *Info*  
+	920093_: descriptions before a warning.
+	
+	.. warning::
+	
+		This flag should not be used with toast and jam.
+		
+	ThirdLink_ | FourthLink_ | FifthLink_ 
+	
+	
+	
+.. hlist::
+   :columns: 3
+
+   * A list of
+   * short items
+   * that should be
+   * displayed
+   * horizontally
+		
+		
+.. note::
+
+   This function is not suitable for sending spam e-mails.
+   
+.. versionadded:: 2.5
+   The *spam* parameter.
+   
+.. deprecated:: ``2016 SP1``
+   Use the USE HINT argument "long_underscore_name"
+   
+   
+.. seealso::
+
+   Module :py:mod:`zipfile`
+      Documentation of the :py:mod:`zipfile` standard module.
+
+   `GNU tar manual, Basic Tar Format <http://link>`_
+      Documentation for tar archive files, including GNU tar extensions.
+	  
+	  
+.. seealso:: modules :py:mod:`zipfile`, :py:mod:`tarfile`	  
 
 
 .. _920093: https://support.microsoft.com/en-us/kb/920093
