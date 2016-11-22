@@ -1,0 +1,42 @@
+==============
+Document title
+==============
+
+A short description of the category and what flags in this category typically do.
+
+
+Section: Short descriptions
+---------------------------
+
+a 2-column list-table (Flag, Short Description)
+the "Flag" column is always a link. The flag can
+point to another location in the same doc, or
+it can point to another document.
+
+When the link points to another document (i.e. is a "See also"
+flag) then the name of the category is tagged w/inline literal
+at the start of the Short Description to 
+
+
+All of the "See Also" flags will be put together at the top, and then
+a row of all periods will be placed intervening to the flags that are
+kept in the same doc
+
+
+Section: Full descriptions
+--------------------------
+
+.. _Flag: 
+
+Flag ``Doc2005`` (Informational)
+	CSS1: a description of what the flag does. CSS2: more information
+	KB123456: another place it is referenced. PWhite: A place where it is
+	illustrated in enlightening ways. 
+
+	`OtherLink1 <link ref>`_ | 
+	`OtherLink1 <link ref>`_ | 
+	`OtherLink1 <link ref>`_ 
+
+``...``
+
+(repeat)

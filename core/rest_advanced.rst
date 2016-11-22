@@ -213,7 +213,7 @@ intervening normal line
 intervening normal line   
    
    
-.. list-table:: Frozen Delights!
+.. list-table::
    :widths: 15 10 30
    :header-rows: 1
 
@@ -223,10 +223,10 @@ intervening normal line
    * - Albatross
      - 2.99
      - On a stick!
-   * - Crunchy Frog
+   * - ThirdLink_
      - 1.49
      - If we took the bones out, it wouldn't be
-       crunchy, now would it?
+       crunchy, now would it? Now, would it? Now, would it?
    * - Gannet Ripple
      - 1.99
-     - On a stick!
+     - Python_

@@ -39,84 +39,45 @@ For more information, see the full Disclaimers_ page. Use at your own risk.
 .. toctree::
    :caption: Queries
 
-   cat/queries/StatsAndEst
-   cat/queries/CompilationInfo
-   cat/queries/CompilationBehavioral
-   cat/queries/QueryExec
-   cat/queries/PlanCaching
-   
+   cat/queries__StatsAndEst
+   cat/queries__CompilationInfo
+   cat/queries__CompilationBehavioral
+   cat/queries__QueryExec
+   cat/queries__PlanCaching
 
+   
 .. toctree::
    :caption: Databases
 
-   cat/databases/DBsAndFiles
-   cat/databases/LockingAndWaiting
-   cat/databases/TranLoggingRecov
-   cat/databases/BackupAndRestore
-   cat/databases/CHECKDBandCorruptions
+   cat/dbs__DBsAndFiles
+   cat/dbs__LockingAndWaiting
+   cat/dbs__TranLoggingRecov
+   cat/dbs__BackupAndRestore
+   cat/dbs__CHECKDBandCorruptions
 
    
 .. toctree::
    :caption: Server
 
-   cat/server/Inst
-   cat/server/SchedAndCPU
-   cat/server/MemAndBuf
-   cat/server/DiskAndNetIO
-   cat/server/Background
-   cat/server/Security
-   cat/server/Connectivity
-   cat/server/HADR
-   cat/server/SpecialFeatures
-   cat/server/ExceptionsAndMemDump
-   cat/server/MiscInfo
+   cat/server__Inst
+   cat/server__SchedAndCPU
+   cat/server__MemAndBuf
+   cat/server__DiskAndNetIO
+   cat/server__Background
+   cat/server__Security
+   cat/server__Connectivity
+   cat/server__HADR
+   cat/server__SpecialFeatures
+   cat/server__ExceptionsAndMemDump
+   cat/server__MiscInfo
    
    
 .. toctree::
    :caption: Other
 
-   cat/other/UnableToConfirm
-   cat/other/OtherStuff
-   cat/other/TODO
-
- 
-.. Links
-.. _Disclaimers: core/Disclaimers.html
-.. _Conventions: core/Conventions.html
-.. _License: LICENSE
-.. _Flag Search: core/FlagSearch.html
-.. _Contribute: core/Contribute.html
-.. _TF Usage: core/MiscTFUsageNotes.html
-.. _Other Notable Repositories: core/OtherRepos.html
-.. _Change Log: core/ChangeLog.html
-
-.. _Statistics and Estimation: cat/queries/StatsAndEst.html
-.. _Compilation (Informational): cat/queries/CompilationInfo.html
-.. _Compilation (Behavioral): cat/queries/CompilationBehavioral.html
-.. _Plan Caching: cat/queries/PlanCaching.html
-.. _Query Execution: cat/queries/QueryExec.html
-
-.. _Databases and Files: cat/databases/DBsAndFiles.html
-.. _Locking and Waiting: cat/databases/LockingAndWaiting.html
-.. _Transactions, Logging, and Recovery: cat/databases/TranLoggingRecov.html
-.. _Backup and Restore: cat/databases/BackupAndRestore.html
-.. _CHECKDB and Corruptions: cat/databases/CHECKDBandCorruptions.html
-
-.. _Instance and Database Startup, General Instance Behavior: cat/server/Inst.html
-.. _SQL Miscellaneous Informational: cat/server/MiscInfo.html
-.. _SQLOS Scheduling and CPU-related: cat/server/SchedAndCPU.html
-.. _SQLOS Memory and Buffer Pool: cat/server/MemAndBuf.html
-.. _Disk and Network IO: cat/server/DiskAndNetIO.html
-.. _Connectivity: cat/server/Connectivity.html
-.. _Background Sessions and Tasks: cat/server/Background.html
-.. _High Availability/Distributed Technologies: cat/server/HADR.html
-.. _Security: cat/server/Security.html
-.. _Special Features: cat/server/SpecialFeatures.html
-.. _Exceptions and Memory Dump Behavior: cat/server/ExceptionsAndMemDump.html
-
-.. _Other: cat/other/Other.html
-.. _Unable to confirm: cat/other/UnableToConfirm.html
-.. _To-Do List: cat/other/TODO.html
+   cat/other__UnableToConfirm
+   cat/other__OtherStuff
+   cat/other__TODO
 
    
 
