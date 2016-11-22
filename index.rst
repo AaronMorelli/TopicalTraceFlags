@@ -1,91 +1,88 @@
-.. TopicalTraceFlags documentation master file, created by
-   sphinx-quickstart on Wed Nov 16 12:52:33 2016.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
+=============================================
 A Topical Collection of SQL Server TraceFlags
 =============================================
 
-Welcome to a topically-organized collection of SQL Server trace flags. This documentation aims to be the most usable, intuitive, 
-and closest-to-comprehensive collection of trace flags anywhere on the internet. The content is always a work-in-progress
-and your contributions are always welcome! Please review the content below and the navigational bar to the left to familiarize
-yourself with the collection's conventions, limitations, and organization. Thanks for dropping by!
+Welcome to Topical Trace Flags, a collection of SQL Server trace flags organized by area of the SQL engine. The goal of this 
+project is to present the full set of publicly-known documented and undocumented trace flags in a usable and intuitive way. The 
+content is always a work-in-progress and your contributions are always welcome! Please review the disclaimers and conventions below 
+and the navigational bar to the left to familiarize yourself with the collection's limitations and it's organization. Thanks for dropping by!
 
 *Editor/Primary compiler*: Aaron Morelli
 
-*License*: MIT License
+*License*: `Topical Trace Flags`_ is licensed under the MIT license.
   
-*Short Disclaimer*: The majority of these flags are undocumented by Microsoft, and therefore unsupported. This repository cannot vouch for complete 
-accuracy in the descriptions provided, nor has authority to do so. The contributors to this repository assumes no responsibility for any 
-negative (or positive!) consequences arising from the use or misuse of these trace flags in any production or non-production environment. 
-For more information, see the full Disclaimers_ page. Use at your own risk.
+*Short Disclaimer*: The majority of these flags are undocumented by Microsoft, and therefore unsupported. This repository has neither the 
+authority nor ability to vouch for complete accuracy in the descriptions provided. The contributors to this repository assumes no responsibility 
+for any negative (or positive!) consequences arising from the use or misuse of these trace flags in any production or non-production environment. 
+For more information, see the full :doc:`Disclaimers <core/Disclaimers>` page. Use at your own risk.
+
+Flags are organized into 3 main parent categories (and an "other" category), with specific pages for each subject area within a category. 
+Each page contains a brief description of that subject area, followed by a table with short descriptions of the flags. This table is 
+followed by more verbose descriptions for each flag, including important links. For a full description of the conventions of this repository, 
+see the :doc:`Conventions <core/Conventions>` page.
 
 
 .. toctree::
    :caption: How to Use
+   :hidden:
 
    core/Disclaimers
    core/Conventions
    core/TFUsageNotes
    core/OtherRepos
-   core/FlagSearch
    core/Contribute
    core/ChangeLog
-   core/rest_basics
-   core/rest_advanced
-   core/rest_sphinx
-
    
 .. toctree::
    :caption: Queries
+   :hidden:
 
-   cat/queries__StatsAndEst
-   cat/queries__CompilationInfo
-   cat/queries__CompilationBehavioral
-   cat/queries__QueryExec
-   cat/queries__PlanCaching
+   cat/qry_StatsAndEst
+   cat/qry_CompInfo
+   cat/qry_CompBehav
+   cat/qry_QueryExec
+   cat/qry_PlanCache
 
    
 .. toctree::
    :caption: Databases
+   :hidden:
 
-   cat/dbs__DBsAndFiles
-   cat/dbs__LockingAndWaiting
-   cat/dbs__TranLoggingRecov
-   cat/dbs__BackupAndRestore
-   cat/dbs__CHECKDBandCorruptions
+   cat/db_DBsAndFiles
+   cat/db_LockAndWait
+   cat/db_TranLogRecov
+   cat/db_BakAndRes
+   cat/db_CHECKCorrupt
 
    
 .. toctree::
    :caption: Server
+   :hidden:
 
-   cat/server__Inst
-   cat/server__SchedAndCPU
-   cat/server__MemAndBuf
-   cat/server__DiskAndNetIO
-   cat/server__Background
-   cat/server__Security
-   cat/server__Connectivity
-   cat/server__HADR
-   cat/server__SpecialFeatures
-   cat/server__ExceptionsAndMemDump
-   cat/server__MiscInfo
+   cat/svr_Inst
+   cat/svr_SchedAndCPU
+   cat/svr_MemAndBuf
+   cat/svr_DiskAndNetIO
+   cat/svr_Background
+   cat/svr_Security
+   cat/svr_Connectivity
+   cat/svr_HADR
+   cat/svr_SpecialFeatures
+   cat/svr_ExceptDump
+   cat/svr_MiscInfo
    
    
 .. toctree::
    :caption: Other
+   :hidden:
 
-   cat/other__UnableToConfirm
-   cat/other__OtherStuff
-   cat/other__TODO
-
-   
+   cat/oth_UnableToConf
+   cat/oth_OtherStuff
+   cat/oth_TODO
 
 
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. Links 
 
+
+.. _Topical Trace Flags : https://github.com/AaronMorelli/TopicalTraceFlags/blob/master/LICENSE.rst

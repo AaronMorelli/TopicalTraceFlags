@@ -1,6 +1,6 @@
-======================
-Trace Flag Usage Notes
-======================
+=================
+Using Trace Flags
+=================
 
 Most (but not all) trace flags can be enabled at SQL Server startup by using the –T (capital letter) startup option. 
 However, most (but not all) trace flags can also be enabled at startup by using the –t (lowercase letter) startup option. 
