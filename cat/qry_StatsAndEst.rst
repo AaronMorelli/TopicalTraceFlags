@@ -23,7 +23,7 @@ Short Descriptions
 	  - Short Description
 	* - See Also
 	  - 
-	* - :doc:`8666 <queries__CompilationInfo>`
+	* - :doc:`8666 <qry_CompInfo>`
 	  - TODO
 	* - ...
 	  - 

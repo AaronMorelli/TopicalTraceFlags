@@ -27,46 +27,46 @@ see the [Conventions](Conventions.rst) page.
 
 _How to Use_
 
- - [Disclaimers](Disclaimers.rst)
- - [Conventions](Conventions.rst)
- - [Using Trace Flags](TFUsageNotes.rst)
- - [Other Important Repositories](OtherRepos.rst)
- - [How to Contribute](Contribute.rst)
- - [Change Log](ChangeLog.rst)
+ - [Disclaimers](core/Disclaimers.rst)
+ - [Conventions](core/Conventions.rst)
+ - [Using Trace Flags](core/TFUsageNotes.rst)
+ - [Other Important Repositories](core/OtherRepos.rst)
+ - [How to Contribute](core/Contribute.rst)
+ - [Change Log](core/ChangeLog.rst)
    
 _Queries_
- - [Statistics and Estimation](qry_StatsAndEst.rst)
- - [Compilation Informational](qry_CompInfo.rst)
- - [Compilation Behavioral](qry_CompBehav.rst)
- - [Query Execution](qry_QueryExec.rst)
- - [Plan Caching](qry_PlanCache.rst)
+ - [Statistics and Estimation](cat/qry_StatsAndEst.rst)
+ - [Compilation Informational](cat/qry_CompInfo.rst)
+ - [Compilation Behavioral](cat/qry_CompBehav.rst)
+ - [Query Execution](cat/qry_QueryExec.rst)
+ - [Plan Caching](cat/qry_PlanCache.rst)
    
 _Databases_
 
- - [Databases and Files](db_DBsAndFiles.rst)
- - [Locking and Waiting](db_LockAndWait.rst)
- - [Transactions, Logging, and Recovery](db_TranLogRecov.rst)
- - [Backup And Restore](db_BakAndRes.rst)
- - [CHECKDB And Corruption](db_CHECKCorrupt.rst)
+ - [Databases and Files](cat/db_DBsAndFiles.rst)
+ - [Locking and Waiting](cat/db_LockAndWait.rst)
+ - [Transactions, Logging, and Recovery](cat/db_TranLogRecov.rst)
+ - [Backup And Restore](cat/db_BakAndRes.rst)
+ - [CHECKDB And Corruption](cat/db_CHECKCorrupt.rst)
    
 _Server_
 
- - [General Instance-level](svr_Inst.rst)
- - [SQLOS Scheduling and CPU](svr_SchedAndCPU.rst)
- - [SQLOS Memory and Buffer Pool](svr_MemAndBuf.rst)
- - [Disk and Network IO](svr_DiskAndNetIO.rst)
- - [Background Tasks](svr_Background.rst)
- - [Security](svr_Security.rst)
- - [Connectivity](svr_Connectivity.rst)
- - [HADR / Distributed Technologies](svr_HADR.rst)
- - [Special Features](svr_SpecialFeatures.rst)
- - [Exceptions and Memory Dumping](svr_ExceptDump.rst)
- - [Miscellaneous Info](svr_MiscInfo.rst)
+ - [General Instance-level](cat/svr_Inst.rst)
+ - [SQLOS Scheduling and CPU](cat/svr_SchedAndCPU.rst)
+ - [SQLOS Memory and Buffer Pool](cat/svr_MemAndBuf.rst)
+ - [Disk and Network IO](cat/svr_DiskAndNetIO.rst)
+ - [Background Tasks](cat/svr_Background.rst)
+ - [Security](cat/svr_Security.rst)
+ - [Connectivity](cat/svr_Connectivity.rst)
+ - [HADR / Distributed Technologies](vsvr_HADR.rst)
+ - [Special Features](cat/svr_SpecialFeatures.rst)
+ - [Exceptions and Memory Dumping](cat/svr_ExceptDump.rst)
+ - [Miscellaneous Info](cat/svr_MiscInfo.rst)
    
 _Other_
 
- - [Unable To Confirm](oth_UnableToConf.rst)
- - [Other Stuff](oth_OtherStuff.rst)
- - [To Do](oth_TODO.rst)
+ - [Unable To Confirm](cat/oth_UnableToConf.rst)
+ - [Other Stuff](cat/oth_OtherStuff.rst)
+ - [To Do](cat/oth_TODO.rst)
 
 
