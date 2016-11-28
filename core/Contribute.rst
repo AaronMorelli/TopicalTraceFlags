@@ -5,21 +5,17 @@ How to Contribute
 Topical Trace Flags is hosted on GitHub_, and operates under the assumption that anyone in the SQL
 Server community should be able to add value to the repository in an easy way and receive credit
 for doing so. The repository is "coded" via the reStructuredText markup language, but you don't have
-to learn this markup to make changes. Even if submitters of pull requests can usually just
+to learn this markup to make changes. Even submitters of pull requests can usually just
 copy an existing flag's content and then change it, mimicking the various markup tags from the copied text.
 
-Before requesting a change, read the `Guidelines for changes`_ section below and understand which files the flag is present
-in by following these steps: 
+To request a change, first search the repo using the Search textbox in the upper-left window. [Annoyingly] you 
+apparently must be on the root page of the repo for search to check all sub-pages, so click the "TopicalTraceFlags"
+Home button in the upper-left first. You can also use the callout box in the lower left corner 
+of the browser or this `search`_ link.
 
-1. Use the `search`_ functionality (also available via the callout box in the lower left corner of the browser
-   when on the ReadTheDocs site) to search for the flag that you want to add or change.
-
-2. Review the search results to determine which file(s) the flag is present in.
-
-3. Review each result page. Only one page holds the full definition for a given flag, but a flag
-   may also be present in the "SeeAlso" section of the Short Description table in other pages if it's functionality
-   fits there also. Generally the "full-definition" page is the one that should be modified, unless the short descriptions 
-   are wrong or incomplete.
+Then, review the search results and confirm which page holds the full definition for the flag (versus the pages
+that only hold "SeeAlso" references to the flag). Determine the change(s) you want made, ensuring they comply 
+with the `Guidelines for changes`_ section below. 
 
 Once you understand the flag's existing content (or that the flag is completely new), you have several options: 
 1) non-GitHub methods like email or Twitter, 2) GitHub issues, or 3) GitHub pull requests.

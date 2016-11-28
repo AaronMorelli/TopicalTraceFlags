@@ -21,8 +21,8 @@ Each page contains a brief description of that subject area, followed by a table
 followed by more verbose descriptions for each flag, including important links. For a full description of the conventions of this repository, 
 see the :doc:`Conventions <core/Conventions>` page.
 
-To make it easier to see additions (to this repository, not necessarily to the SQL Server product) in the last 6-12 
-months, check out the :doc:`Recent Additions <core/WhatsNew>` page.
+To see additions (to this repository, not necessarily to the SQL Server product) in the last 6-12 months, check out 
+the :doc:`Recent Additions <core/WhatsNew>` page.
 
 
 .. toctree::

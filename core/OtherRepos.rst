@@ -9,7 +9,8 @@ Other Important Repositories
  - 2008_
  - 2005_
  - `TF 4199`_
- - KB920093_
+ - KB920093_ (Tuning options for high-performance workloads)
+ - KB2801413_ (Flags supported for use with QUERYTRACEON)
  
 *Print Sources:*
  - Kalen Delaney’s `SQL Server 2008 Internals`_ referred to in shorthand as “Kalen2008” 
@@ -34,6 +35,7 @@ Other Important Repositories
 .. _2005: http://technet.microsoft.com/en-us/library/ms188396(v=sql.90).aspx
 .. _TF 4199: http://support.microsoft.com/kb/974006
 .. _KB920093: https://support.microsoft.com/en-us/kb/920093
+.. _KB2801413: https://support.microsoft.com/en-us/kb/2801413
 
 .. _SQL Server 2008 Internals: https://www.amazon.com/Microsoft%C2%AE-Server%C2%AE-Internals-Developer-Reference/dp/0735626243/ref=sr_1_2?ie=UTF8&qid=1477503776&sr=8-2&keywords=Kalen+Delaney+2008
 .. _SQL Server 2005 Practical Troubleshooting: https://www.amazon.com/SQL-Server-2005-Practical-Troubleshooting/dp/0321447743/ref=sr_1_1?ie=UTF8&qid=1477503810&sr=8-1&keywords=Ken+Henderson+2005
