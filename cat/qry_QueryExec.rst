@@ -11,6 +11,8 @@ This category mashes up several smaller categories:
 The standard `Fixes and Past Relevance`_ section holds, as usual, flags that have trustworthy links but have ceased to be relevant
 for modern builds (or are fix flags whose expected utility is very short). 
 
+TODO: move 6532, 6533, and 6534 here. All are documented
+
 |
 
 Short Descriptions
@@ -82,6 +84,12 @@ Short Descriptions
 	  - Enables a SQL 7 fix re: strings w/trailing spaces being truncated.
 	* - 6530_
 	  - Enables a fix for poor performance when building an index on a spatial data type.
+	* - 6532_
+	  - Enables a fix for poor query performance on spatial data types.
+	* - 6533_
+	  - Similar functionality as 6532 (performance fix for queries on spatial data).
+	* - 6534_
+	  - Similar functionality as 6532 (performance fix for queries on spatial data).
 	 
 .. This comment line is as long as we would ever want the short desc to be in the table above.
 
@@ -94,14 +102,14 @@ Query Execution
 
 .. _646:
 
-646
+646 (Info)
 	Prints (to SQL error log) which segments were eliminated at runtime by columnstore segment elimination. Requires 3605. 
 	
 	Technet_1_ | Niko_1_ | Niko_2_ | JSack_1_ 
 
 .. _1504:
 
-1504
+1504 (Info)
 	Prints to the console (w/3604) or the error log (w/3605; required for parallel index builds) when an index DDL command 
 	requires more memory to be granted to continue sorting rows in memory.
 	
@@ -144,7 +152,7 @@ Query Execution
 
 .. _2486:
 	
-2486
+2486 (Info)
 	In SQL 2016 (CTP 3.0 at least), enables output for the "query_trace_column_values" Extended Event, allowing the 
 	value of output columns from individual plan iterators to be traced.
 	
@@ -270,8 +278,30 @@ in a CU but are baselined in a later service pack or release.
 	Enables a fix for poor performance when building an index on a spatial data type.
 	
 	2896720_
+	
+.. _6532:
+	
+6532 ``Doc2014`` 
+	`BOL 2014`_: "Enables performance improvement of query operations with spatial data types in SQL Server 2012 and SQL Server 2014. 
+	The performance gain will vary, depending on the configuration, the types of queries, and the objects.
+	Note: Beginning with SQL Server 2016 this behavior is controlled by the engine and trace flag 6532 has no effect."
+	
+	3107399_ 
+	
+.. _6533:
+
+6533 ``Doc2014``
+	`BOL 2014`_ has an identical description for this flag as for 6532_.
+	
+	3107399_ 
 
 
+.. _6534:
+
+6534 ``Doc2014``
+	`BOL 2014`_ has an identical description for this flag as for 6532_.
+	
+	3107399_ 
 
 .. Official Links 
 
@@ -284,6 +314,8 @@ in a CU but are baselined in a later service pack or release.
 .. _891116: https://support.microsoft.com/en-us/kb/891116
 
 .. _2896720: http://support.microsoft.com/kb/2896720/en-us
+
+.. _3107399: https://support.microsoft.com/en-us/kb/3107399
 
 
 .. MSFT Blog links

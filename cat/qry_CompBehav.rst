@@ -155,8 +155,14 @@ Disk IO Optimization
 
 .. _2340:
 
-2340
-	(related to 8744 and 9115) Dima: "Disable Nested Loops Implicit Batch Sort on the Post Optimization Rewrite Phase."
+2340 ``Doc2014``
+	`BOL 2014`_: "Causes SQL Server not to use a sort operation (batch sort) for optimized nested loop joins when generating 
+	a plan. Beginning with SQL Server 2016 SP1, to accomplish this at the query level, add the *DISABLE_OPTIMIZED_NESTED_LOOP* 
+	USE HINT query hint instead of using this trace flag."
+	
+	Dima: "Disable Nested Loops Implicit Batch Sort on the Post Optimization Rewrite Phase."
+	Dima's article is useful to contrast NL batch sorting and 2340 from NL prefetching and 8744, 
+	and discusses 9115.
 	
 	2009160_ | CSS_1_ | Dima_1_ 
 	
@@ -178,8 +184,9 @@ Disk IO Optimization
 	
 .. _8744:
 
-8744
-	KB: "Disables pre-fetching for the Nested Loops operator." PWhite: "Disable prefetch (CUpdUtil::FPrefetchAllowedForDML)." 
+8744 ``Doc2014``
+	`BOL 2014`_: "Disable pre-fetching for the Nested Loop operator."
+	PWhite: "Disable prefetch (CUpdUtil::FPrefetchAllowedForDML)." 
 	Dima's article is useful to contrast NL prefetching and 8744 from NL batch sorting and 2340/9115.
 
 	920093_ | Dima_1_ | PWhite_1_ | PWhite_2_ | PWhite_19_ | Connect_3_ 
@@ -242,18 +249,17 @@ Hashing and Batching
 
 .. _9347:
 	
-9347
-	A mysterious flag mentioned nowhere else, but referenced in this bugfix KB: "FIX: Can't 
-	disable batch mode sorted by session trace flag 9347 or the query hint QUERYTRACEON 9347 
-	in SQL Server 2016".
+9347 ``Doc2014``
+	`BOL 2014`_: "Disables batch mode for sort operator. SQL Server 2016 introduces a new batch mode sort operator 
+	that boosts performance for many analytical queries."
 	
 	3172787_ 
 
 .. _9349:
 	
-9349
-	`BOL 2014`_: "Disables batch mode top sort operator. SQL Server 2016 introduces a new 
-	batch mode top sort operator that boosts performance for many analytical queries."
+9349 ``Doc2014``
+	`BOL 2014`_: "Disables batch mode for top N sort operator. SQL Server 2016 introduces a new batch mode top 
+	sort operator that boosts performance for many analytical queries."
 	
 .. _9358:
 	
@@ -341,8 +347,12 @@ Miscellaneous
 
 .. _2335: 
 
-2335
-	Causes the optimizer to generate plans that are "more conservative in terms of memory consumption 
+2335 ``Doc2014``
+	`BOL 2014`_: "Causes SQL Server to assume a fixed amount of memory is available during query optimization. 
+	It does not limit the memory SQL Server grants to execute the query. The memory configured for SQL Server 
+	will still be used by data cache, query execution and other consumers."
+	
+	KB: Causes the optimizer to generate plans that are "more conservative in terms of memory consumption 
 	when executing the query." KB describes scenario where large values of "max server memory" may 
 	lead to inefficient plans.
 	
