@@ -20,6 +20,8 @@ Remove these files from my repo, never used OLD: Query Compilation (Info only) a
 
 Review these links:
 
+https://support.microsoft.com/en-us/kb/3189645
+
 https://support.microsoft.com/en-us/kb/3194716 
 
 https://support.microsoft.com/en-us/kb/3195813 
