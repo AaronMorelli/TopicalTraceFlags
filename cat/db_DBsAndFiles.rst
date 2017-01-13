@@ -4,8 +4,8 @@ Databases and Files
 
 Flags in this category fall into the below groupings:
 
-#. `blahblah`_ --> wah wah wah wah
-#. `dooby dooby do`_ --> bud
+#. `Allocation`_ --> Flags that modify how pages in MDF/NDF files are allocated to individual objects.
+#. `Other`_ --> Functionality toggles not related to page allocation.
 #. `Fixes and Past Relevance`_ --> Fix flags and flags which are no longer relevant.
 
 
@@ -142,7 +142,7 @@ Allocation
 
 .. _1118: 
 
-1118: ``Doc2014``
+1118 ``Doc2014``
 	`BOL 2014`_: "Removes most single page allocations on the server, reducing contention on the SGAM page. When a 
 	new object is created, by default, the first eight pages are allocated from different extents (mixed extents). 
 	Afterwards, when more pages are needed, those are allocated from that same extent (uniform extent). The SGAM 
@@ -322,10 +322,10 @@ Other
 	
 	3067257_ | RelSvcs_1_ 
 
-	
+
 |
 
-.. _FixPastRel1:
+.. _FixPastRel6:
 
 Fixes and Past Relevance
 ------------------------
