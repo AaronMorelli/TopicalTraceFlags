@@ -414,12 +414,12 @@ fix in a CU but are baselined in a later service pack or release.
 	
 	3171002_
 
-	
+
 
 
 .. Official Links 
 
-.. _BOL 2008: 
+.. _BOL 2008: https://technet.microsoft.com/en-us/library/ms188396(v=sql.100).aspx
 
 .. _BOL 2014: https://technet.microsoft.com/en-us/library/ms188396.aspx
 
