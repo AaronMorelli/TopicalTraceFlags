@@ -5,7 +5,7 @@ Databases and Files
 Flags in this category fall into the below groupings:
 
 #. `Allocation`_ --> Flags that modify how pages in MDF/NDF files are allocated to individual objects.
-#. `Other`_ --> Functionality toggles not related to page allocation.
+#. `Other`_ --> Flags not related to page allocation.
 #. `Fixes and Past Relevance`_ --> Fix flags and flags which are no longer relevant.
 
 
@@ -14,8 +14,9 @@ See also: 3449 and 8903 ([Disk and Network IO](https://github.com/AaronMorelli/S
 (TODO: ensure 1802 is present in the See Also for Security)
 (TODO: find other entry for 9394 and place an in-line link to its other home. Ditto for the other section)
 (TODO: 10207 should be moved to the corrupt Checkdb section and placed here in the see also section)
-TODO: is 9929 in multiple locations?
+TODO: is 9929 in multiple locations? e.g. the special features one?
 TODO: should 1482 move to a t-log focused page?
+TODO: 2330 should have a reference in one of the optimization pages
 
 |
 
@@ -62,6 +63,8 @@ Short Descriptions
 	  - Reverts identity column generation behavior to pre-SQL 2012 behavior.
 	* - 647_
 	  - Skips a new-in-2012 data check that lengthens ALTER TABLE durations.
+	* - 1140_
+	  - Allows reversion to an older algorithm for mixed page allocs.
 	* - 1482_
 	  - Prints info on a variety of t-log management operations.
 	* - 1808_
@@ -86,8 +89,6 @@ Short Descriptions
 	  - 
 	* - :ref:`Fix/PastRel <FixPastRel6>`
 	  - 
-	* - 1140_
-	  - Workaround for mixed page allocation bug.
 	* - 1802_
 	  - Workaround for permissions change upon DB detach
 	* - 1807_
@@ -121,7 +122,7 @@ Allocation
 1106 (Info)
 	Creates a new RB in sys.dm_os_ring_buffers that tracks allocations made in TempDB.
 	
-	9477204_ | BobWard_Pass2011_ | Arvind_1_
+	947204_ | BobWard_Pass2011_ | Arvind_1_
 	
 	
 .. _1117:
@@ -135,10 +136,11 @@ Allocation
 	This flag is commonly associated with tempdb but applies to all databases when on. The flag is typically
 	used to ensure that all files grow evenly to maintain a well balanced proportional-fill allocation algorithm.
 	Nacho gives a very special/rare edge case for sysfiles1. Chris Adkin has some interesting screenshots on its 
-	effect under certain workloads.
+	effect under certain workloads. (PRand_1_ doesn't reference this flag but its info is highly relevant to
+	this topic.)
 	
-	`ALTER DATABASE file and filegroup options`_ | BobWard_Pass2011_ | PRand_1_ | PRand_4_ | 
-	Nacho_2_ | CAdkin_2_ | FastTrackDW_ | SQLArticlesDotCom_
+	`ALTER DATABASE file and filegroup options`_ | BobWard_Pass2011_ | PRand_4_ | 
+	Nacho_2_ | CAdkin_2_ | SQLArticlesDotCom_
 
 .. _1118: 
 
@@ -155,6 +157,19 @@ Allocation
 	
 	`ALTER DATABASE SET Options`_ | 328551_ | 837938_ | 936185_ | 2154845_ | 
 	CSS_3_ | CSS_4_ | PRand_5_ | CAdkin_2_
+
+	
+.. _1140:
+
+1140
+	Allows reversion to an older, more aggressive form of the mixed-page-allocation algorithm. 
+	The flag was introduced as a workaround for a bug in 2005SP2/SP3 and SQL 2008 where mixed page 
+	allocations climb continually in tempdb for workloads that use tempdb extremely heavily. That 
+	behavior was due to a change in the way that mixed-page allocations are done. KB has a great 
+	description of both the "old" and "new" way that free pages are found for a mixed-page 
+	allocation to be performed.
+
+	2000471_
 
 	
 .. _1165:
@@ -261,13 +276,13 @@ Other
 .. _2330:
 
 2330
-	Stops the collection of statistics for sys.db_index_usage_stats. *CAdkin: also disables f
-	or sys.dm_db_missing_index_group_stats, and thus is useful when seeing high waits on the 
+	Stops the collection of statistics for sys.db_index_usage_stats. CAdkin: also disables
+	sys.dm_db_missing_index_group_stats, and thus is useful when seeing high waits on the 
 	OPT_IDX_STATS spinlock.
 	
 	2003031_ | PRand_3_ | BrentOzar_1_ | CAdkin_1_
 
-
+	
 .. _2548: 
 	
 2548
@@ -332,15 +347,6 @@ Fixes and Past Relevance
 These flags either are old and irrelevant for modern builds, appear only in CTPs, or enable a 
 fix in a CU but are baselined in a later service pack or release.
 
-.. _1140:
-
-1140
-	Workaround for a bug in 2005SP2/SP3 and SQL 2008 where mixed page allocations climb continually, 
-	due to a change in the way that mixed-page allocations are done. KB has a great description 
-	of both the "old" and "new" way that free pages are found for a mixed-page allocation to be performed.
-
-	2000471_
-
 .. _1802:
 	
 1802
@@ -350,9 +356,9 @@ fix in a CU but are baselined in a later service pack or release.
 	the database, it cannot be attached because of limited share permissions." 
 	
 	It sounds like this flag disables functionality in changing permissions on database files after 
-	the DB is detached, thus security implications.
+	the DB is detached, thus has security implications.
 	
-	922804_ | StorEng_1_ (comments, though Kevin may mean 1807)
+	922804_ | StorEng_1_ (comments, though Kevin likely means 1807)
 
 .. _1807:
 	
@@ -375,7 +381,7 @@ fix in a CU but are baselined in a later service pack or release.
 .. _10202:
 	
 10202
-	SAgarwal PASS 2014 demo script: enables new DMV named sys.dm_db_column_store_row_group_physical_stats. 
+	Sunil Agarwal PASS 2014 demo script: enables new DMV named sys.dm_db_column_store_row_group_physical_stats. 
 	DMV was not in 2014 at the time of the demo, thus appears to be in a future (or internal) 
 	version of SQL Server.
 
@@ -488,8 +494,6 @@ fix in a CU but are baselined in a later service pack or release.
 
 
 .. Other Links 
-
-.. _FastTrackDW: https://www.scribd.com/document/264335287/FTRARefConfigGuide-docx
 
 .. _SQLArticlesDotCom: http://sql-articles.com/articles/general/day-6trace-flag-1117-auto-grow-equally-in-all-data-file/
 

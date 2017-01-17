@@ -2,6 +2,8 @@
 Transactions, Logging, and Recovery
 ===================================
 
+All flags in this category are related to transactional behavior or transaction records being
+written to disk (to the transaction log).
 
 See also: 9592 and 9567 High Availability/Distributed Technologies https://github.com/AaronMorelli/SQLServerTraceFlags/blob/master/Categories/HADRDist.md
 
@@ -35,7 +37,7 @@ Short Descriptions
 	  - Allows the use of save points within distributed trans.
 	* - 9038_
 	  - Disables the multi-threaded log writer in SQL 2016.
-	* - 9099_
+	* - 9909_
 	  - Forces single-threaded ALTER TABLE.
 	* - ...
 	  - 
@@ -86,7 +88,9 @@ Flags
 .. _8599:
 
 8599
-	Allows the use of a save-point within a distributed transaction.
+	(Very old, needs verification.) Allows the use of a save-point within a distributed 
+	transaction. Note that one reference to the flag in KB295027 is written incorrectly
+	as 8588.
 	
 	295027_ | 903742_
 
@@ -106,7 +110,7 @@ Flags
 	table would normally be done in parallel. This avoids the possibility of data loss 
 	b/c of a bug in parallel ALTER TABLE.
 	
-	3174963 https://support.microsoft.com/en-us/kb/3174963
+	3174963_ 
 
 |
 
