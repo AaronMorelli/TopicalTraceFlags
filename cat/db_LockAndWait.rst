@@ -35,7 +35,7 @@ Short Descriptions
 	  - Reports to error log when recompile occurs due to auto-update of stats.
 	* - ...
 	  - 
-	* - :ref:`Info <InfoBakRes>`
+	* - :ref:`Info <InfoLockWait>`
 	  - 
 	* - 611_
 	  - Records lock escalations in the SQL error log.
@@ -57,7 +57,7 @@ Short Descriptions
 	  - Removes "optional" wait types from sys.dm_os_wait_stats.
 	* - ...
 	  - 
-	* - :ref:`Func <FuncBakRes>`
+	* - :ref:`Func <FuncLockWait>`
 	  - 
 	* - \* 1211_
 	  - Disables lock escalations due to memory pressure.
@@ -69,7 +69,7 @@ Short Descriptions
 	  - Disables any locking hints in query text.
 	* - ...
 	  - 
-	* - :ref:`Fix/PastRel <FixPastRel7>`
+	* - :ref:`Fix/PastRel <FixPastRel8>`
 	  - 
 	* - 1216_
 	  - Complicated; see below
