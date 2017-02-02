@@ -61,3 +61,5 @@ https://blogs.msdn.microsoft.com/sqlcat/2016/12/08/improve-query-performance-on-
 
 
 TF 3459 disables parallel redo according to Anthony Nocentino. (I have a screenshot of the Twitter exchange in my "bolex")
+
+https://support.microsoft.com/en-us/help/4010261/sql-server-2016-improvements-in-handling-some-data-types-and-uncommon-
