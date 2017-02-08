@@ -63,3 +63,6 @@ https://blogs.msdn.microsoft.com/sqlcat/2016/12/08/improve-query-performance-on-
 TF 3459 disables parallel redo according to Anthony Nocentino. (I have a screenshot of the Twitter exchange in my "bolex")
 
 https://support.microsoft.com/en-us/help/4010261/sql-server-2016-improvements-in-handling-some-data-types-and-uncommon-
+
+Fantastically-good article (that mentions TF 3656) by Andreas Wolter on diagnosing slow perf with advanced analysis using XEvents, WinDbg, and Wireshark.
+http://www.sqlservercentral.com/blogs/andreas-wolter-sql-server-bi-blog-english-german/2017/02/02/where-is-that-preemptive-wait-coming-from-database-ownership-and-performance-a-journey-through-sql-server-internals-with-xevents-windbg-and-wireshark/
