@@ -66,3 +66,7 @@ https://support.microsoft.com/en-us/help/4010261/sql-server-2016-improvements-in
 
 Fantastically-good article (that mentions TF 3656) by Andreas Wolter on diagnosing slow perf with advanced analysis using XEvents, WinDbg, and Wireshark.
 http://www.sqlservercentral.com/blogs/andreas-wolter-sql-server-bi-blog-english-german/2017/02/02/where-is-that-preemptive-wait-coming-from-database-ownership-and-performance-a-journey-through-sql-server-internals-with-xevents-windbg-and-wireshark/
+
+
+Good demonstration of TF 2453:
+https://www.brentozar.com/archive/2017/02/using-trace-flag-2453-improve-table-variable-performance/
