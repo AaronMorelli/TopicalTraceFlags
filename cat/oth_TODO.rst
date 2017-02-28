@@ -73,3 +73,6 @@ https://www.brentozar.com/archive/2017/02/using-trace-flag-2453-improve-table-va
 
 Review Konstantin Taranov's post on SSC:
 http://www.sqlservercentral.com/articles/trace-flag/152989/?utm_source=SSC&utm_medium=pubemail
+
+TF 139:
+https://justdaveinfo.wordpress.com/2017/02/27/sql-server-2016-upgrading-to-compatability-level-130trace-flag-139-and-additional-one-off-dbcc-checks/
