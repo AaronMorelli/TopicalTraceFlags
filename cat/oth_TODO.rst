@@ -70,3 +70,6 @@ http://www.sqlservercentral.com/blogs/andreas-wolter-sql-server-bi-blog-english-
 
 Good demonstration of TF 2453:
 https://www.brentozar.com/archive/2017/02/using-trace-flag-2453-improve-table-variable-performance/
+
+Review Konstantin Taranov's post on SSC:
+http://www.sqlservercentral.com/articles/trace-flag/152989/?utm_source=SSC&utm_medium=pubemail
