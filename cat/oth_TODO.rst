@@ -76,3 +76,8 @@ http://www.sqlservercentral.com/articles/trace-flag/152989/?utm_source=SSC&utm_m
 
 TF 139:
 https://justdaveinfo.wordpress.com/2017/02/27/sql-server-2016-upgrading-to-compatability-level-130trace-flag-139-and-additional-one-off-dbcc-checks/
+
+https://blogs.msdn.microsoft.com/bobsql/2017/05/23/how-it-works-sql-server-deadlock-trace-flag-1222-output/
+
+TF 176 (disables computed column expansion along with some other nuanced behavior). Great Paul White article.
+https://sqlperformance.com/2017/05/sql-plan/properly-persisted-computed-columns
