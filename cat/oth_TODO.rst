@@ -81,3 +81,5 @@ https://blogs.msdn.microsoft.com/bobsql/2017/05/23/how-it-works-sql-server-deadl
 
 TF 176 (disables computed column expansion along with some other nuanced behavior). Great Paul White article.
 https://sqlperformance.com/2017/05/sql-plan/properly-persisted-computed-columns
+
+https://www.sqlskills.com/blogs/erin/query-store-trace-flags/
